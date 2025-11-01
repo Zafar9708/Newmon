@@ -7,11 +7,10 @@ module.exports = {
   theme: {
    extend: {
   colors: {
-    primary: '#0F416D',
-    white: '#FFFFFF',
-    // green: '#059A3F',
-    // dark: '#0F416D',
-    // cream: '#FFFFEB',
+  //  nkfTeal: '#00A6B4',
+  //  nkfPink: '#C93A97',
+
+ nkfTeal: 'rgb(19, 146, 152)',        nkfPink: '#C63697',
   },
 }
   },
