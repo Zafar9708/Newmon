@@ -1,19 +1,19 @@
 
-export const metadataBase = new URL('https://newmonkahlon.org');
+export const metadataBase = new URL('https://newmankahlon.org');
 import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Newmon Kahlon Foundation - Creating Hope, Building Futures',
-  description: 'Newmon Kahlon Foundation is dedicated to transforming lives through sustainable community development, education, healthcare access, and emergency relief initiatives worldwide.',
-  keywords: 'Newmon Kahlon Foundation, charity, nonprofit, community development, education support, healthcare access, emergency relief, donation, volunteer, fundraising',
+  title: 'newman Kahlon Foundation - Creating Hope, Building Futures',
+  description: 'newman Kahlon Foundation is dedicated to transforming lives through sustainable community development, education, healthcare access, and emergency relief initiatives worldwide.',
+  keywords: 'newman Kahlon Foundation, charity, nonprofit, community development, education support, healthcare access, emergency relief, donation, volunteer, fundraising',
   robots: 'index, follow',
   openGraph: {
-    title: 'Newmon Kahlon Foundation - Creating Hope, Building Futures',
+    title: 'newman Kahlon Foundation - Creating Hope, Building Futures',
     description: 'Transforming lives through sustainable community development, education, and healthcare initiatives',
-    url: 'https://newmonkahlon.org',
-    siteName: 'Newmon Kahlon Foundation',
+    url: 'https://newmankahlon.org',
+    siteName: 'newman Kahlon Foundation',
     type: 'website',
     locale: 'en_US',
     images: [
@@ -21,13 +21,13 @@ export const metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Newmon Kahlon Foundation - Making a Difference',
+        alt: 'newman Kahlon Foundation - Making a Difference',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Newmon Kahlon Foundation - Creating Hope, Building Futures',
+    title: 'newman Kahlon Foundation - Creating Hope, Building Futures',
     description: 'Transforming lives through sustainable community development',
     images: ['/twitter-image.jpg'],
   },
@@ -44,15 +44,15 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "NonprofitOrganization",
-              "name": "Newmon Kahlon Foundation",
+              "name": "newman Kahlon Foundation",
               "alternateName": "NK Foundation",
-              "url": "https://newmonkahlon.org",
-              "logo": "https://newmonkahlon.org/logo.png",
+              "url": "https://newmankahlon.org",
+              "logo": "https://newmankahlon.org/logo.png",
               "description": "Dedicated to transforming lives through sustainable community development, education, and healthcare initiatives",
               "foundingDate": "2010",
               "founder": {
                 "@type": "Person",
-                "name": "Newmon Kahlon"
+                "name": "newman Kahlon"
               },
               "address": {
                 "@type": "PostalAddress",
@@ -66,15 +66,15 @@ export default function RootLayout({ children }) {
                 "@type": "ContactPoint",
                 "telephone": "+1-555-123-HELP",
                 "contactType": "customer service",
-                "email": "contact@newmonkahlon.org",
+                "email": "contact@newmankahlon.org",
                 "areaServed": "US",
                 "availableLanguage": "English"
               },
               "sameAs": [
-                "https://www.facebook.com/newmonkahlonfoundation",
-                "https://www.twitter.com/newmonkahlon",
-                "https://www.instagram.com/newmonkahlon",
-                "https://www.linkedin.com/company/newmon-kahlon-foundation"
+                "https://www.facebook.com/newmankahlonfoundation",
+                "https://www.twitter.com/newmankahlon",
+                "https://www.instagram.com/newmankahlon",
+                "https://www.linkedin.com/company/newman-kahlon-foundation"
               ],
               "knowsAbout": [
                 "Community Development",
@@ -100,11 +100,11 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Newmon Kahlon Foundation",
-              "url": "https://newmonkahlon.org",
+              "name": "newman Kahlon Foundation",
+              "url": "https://newmankahlon.org",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://newmonkahlon.org/search?q={search_term_string}",
+                "target": "https://newmankahlon.org/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             }),
@@ -131,7 +131,7 @@ export default function RootLayout({ children }) {
 
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://newmonkahlon.org" />
+        <link rel="canonical" href="https://newmankahlon.org" />
 
         {/* Additional Meta Tags for Better SEO */}
         <meta name="theme-color" content="#059669" />
@@ -157,13 +157,13 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "DonateAction",
-              "name": "Donate to Newmon Kahlon Foundation",
+              "name": "Donate to newman Kahlon Foundation",
               "description": "Support our mission to transform lives through education, healthcare, and community development",
-              "url": "https://newmonkahlon.org/donate",
+              "url": "https://newmankahlon.org/donate",
               "recipient": {
                 "@type": "NonprofitOrganization",
-                "name": "Newmon Kahlon Foundation",
-                "url": "https://newmonkahlon.org"
+                "name": "newman Kahlon Foundation",
+                "url": "https://newmankahlon.org"
               }
             }),
           }}
