@@ -44,6 +44,16 @@ export default function ImageGrid() {
     "/images/nkf28.jpg",
     "/images/nkf57.jpeg",
     "/images/nkf58.jpeg",
+    "/images/nkf59.jpg",
+    "/images/nkf60.jpg",
+    "/images/nkf61.jpg",
+    "/images/nkf62.jpg",
+    "/images/nkf63.jpg",
+    "/images/nkf64.jpg",
+    "/images/nkf65.jpg",
+        
+
+
   ];
 
   return (
@@ -247,6 +257,38 @@ export default function ImageGrid() {
               </div>
             ))}
           </div>
+
+
+             <div className="flex flex-col md:flex-row gap-4">
+            {images.slice(39, 42).map((image, index) => (
+              <div key={index + 36} className="flex-1">
+                <Image
+                  src={image}
+                  alt={`Gallery image ${index + 37}`}
+                  width={350}
+                  height={250}
+                  className="w-full h-56 object-cover"
+                />
+              </div>
+            ))}
+          </div>
+
+
+             <div className="flex flex-col md:flex-row gap-4">
+            {images.slice(42, 45).map((image, index) => (
+              <div key={index + 36} className="flex-1">
+                <Image
+                  src={image}
+                  alt={`Gallery image ${index + 37}`}
+                  width={350}
+                  height={250}
+                  className="w-full h-56 object-cover"
+                />
+              </div>
+            ))}
+          </div>
+
+          
 
         </div>
       </div>
